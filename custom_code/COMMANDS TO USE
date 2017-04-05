@@ -1,0 +1,7 @@
+Reset:
+rake db:drop
+
+Create:
+rake db:migrate
+ruby /custom_code/add_teachers.rb
+ruby /custom_code/add_students_from_csv.rb
